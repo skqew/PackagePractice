@@ -21,6 +21,7 @@ let package = Package(
         .target(
             name: "MyLibrary",
             dependencies: []),
+            path: "Sources"),
         .testTarget(
             name: "MyLibraryTests",
             dependencies: ["MyLibrary"]),
